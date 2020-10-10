@@ -3,10 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+#subtitle{
+    font-size: 30px;
+}
 #logo{
     width: 250px;
     height:55px;
     margin-top: 10px;
+    margin-left: 30px;
 }
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -176,7 +180,11 @@ header{
 
 .content-4 .nav{
     justify-content: center;
-    margin: 5%;
+    margin: 3%;
+}
+
+#specialities{
+    background: #967259;
 }
 
 .content-4 .nav-tabs{
@@ -203,13 +211,16 @@ header{
     padding-bottom: 36px;
     width: 100%;
 }
- 
+#spec{
+    text-align: center;
+}
 .content-4 .tab-item.active{
     color: #967259;
 }
 
 .tab-content{
-    margin-bottom: 10%;
+    padding: 20px;
+    margin-bottom: 4%;
     transition: all .4s ease;
 }
 
@@ -217,7 +228,7 @@ header{
 
 .most-liked{
     position: relative;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 .video-container{
@@ -234,7 +245,6 @@ header{
     height: 100%;
     width: 100%;
     object-fit: cover;
-
 }
 
 .coffee-card{
@@ -305,7 +315,7 @@ footer{
 
 .text-center h4{
     color: #dbc1ac;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 footer span{
